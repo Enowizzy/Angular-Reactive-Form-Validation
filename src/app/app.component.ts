@@ -35,9 +35,9 @@ export class AppComponent {
   userModel = new User(
     'vendor',
     'Vivian',
-    'Jeremiah',
-    '0693786555',
-    'vivianjeremiah@gmail.com',
+    'Samson',
+    '06773786557',
+    'viviansamson@gmail.com',
     ''
   );
 
@@ -46,9 +46,9 @@ export class AppComponent {
     {
       role: ['Vendor', Validators.required],
       first_name: ['Vivian', [Validators.required, Validators.minLength(3)]],
-      last_name: ['Jeremiah', [Validators.required, Validators.minLength(3)]],
+      last_name: ['Samson', [Validators.required, Validators.minLength(3)]],
       phone: [
-        '0693786555',
+        '0673786557',
         [
           Validators.required,
           // Validators.pattern('^[0-9*$'),
@@ -57,7 +57,7 @@ export class AppComponent {
         ],
       ],
       email: [
-        'vivianjeremiah@gmail.com',
+        'viviansamson@gmail.com',
         [Validators.required, Validators.email],
       ],
       acceptTerms: [true, Validators.requiredTrue],
