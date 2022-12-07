@@ -51,7 +51,7 @@ export class AppComponent {
         '0673786557',
         [
           Validators.required,
-          // Validators.pattern('^[0-9*$'),
+          Validators.pattern("^[0-9]*$"),
           Validators.minLength(10),
           Validators.maxLength(10),
         ],
